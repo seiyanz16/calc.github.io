@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- mockup  -->
+    <img src="../design/desktop-design-theme-1.jpg" class="mockup">
+    <!-- mockup end -->
+
+    <div class="container"  data-theme="one">
+        <main>
+            <div class="flex-container-column card">
+                <div class="title">
+                    <div class="toggle">
+                        <h1>calc</h1>
+                        <div class="row">
+                            <div class="right">
+                                <p class="item item1">1</p>
+                                <p class="item item2">2</p>
+                                <p class="item item3">3</p>
+                            </div>
+                            <div class="control">
+                                <p class="item label">theme</p>
+                                <div class="wrap">
+                                    <input type="radio" checked name="toggle-option" id="firstToggle" class="toggle-option">
+                                    <input type="radio" name="toggle-option" id="secToggle" class="toggle-option">
+                                    <input type="radio" name="toggle-option" id="thirdToggle" class="toggle-option">
+                                    <label for="firstToggle">1</label>
+                                    <label for="secToggle">2</label>
+                                    <label for="thirdToggle">3</label>
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="display">
+                    <h1 class="display-number">0</h1>
+                </div>
+                <div class="card-main">
+                    <div class="flex-container-row">
+                        <div class="button">7</div>
+                        <div class="button">8</div>
+                        <div class="button">9</div>
+                        <div class="button delete">DEL</div>
+                    </div>
+                    <div class="flex-container-row">
+                        <div class="button">4</div>
+                        <div class="button">5</div>
+                        <div class="button">6</div>
+                        <div class="button operator">+</div>
+                    </div>
+                    <div class="flex-container-row">
+                        <div class="button">1</div>
+                        <div class="button">2</div>
+                        <div class="button">3</div>
+                        <div class="button operator">-</div>
+                    </div>
+                    <div class="flex-container-row">
+                        <div class="button dot">.</div>
+                        <div class="button">0</div>
+                        <div class="button operator">/</div>
+                        <div class="button operator">x</div>
+                    </div>
+                    <div class="flex-container-row">
+                        <div class="button reset double">RESET</div>
+                        <div class="button equals double">=</div>
+                    </div>
+                </div>
+            </div>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Zaskia Fitri Sholehah</a>.
+              </div>
+            
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
